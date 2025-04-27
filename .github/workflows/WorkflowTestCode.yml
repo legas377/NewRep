@@ -14,7 +14,7 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: | # Несколько строк
-          pip install pytest
+          pip install pytest pytest-clarity
       - name: Run tests
         run: |
           pytest -v
