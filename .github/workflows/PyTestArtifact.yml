@@ -17,7 +17,7 @@ jobs:
           pip install pytest pytest-clarity
       - name: Run tests
         run: |
-          pytest -v > report.html; exit 0
+          pytest -v > report_test.html; exit 0
       - name: Upload test report
         uses: actions/upload-artifact@v4
         with:
