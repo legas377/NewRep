@@ -18,9 +18,4 @@ jobs:
       - name: Run tests
         run: |
           pytest -v
-    new_job:
-      runs-on: ubuntu-latest
-      steps:
-        - name: NewStep
-          run: echo "Hello!"
 
